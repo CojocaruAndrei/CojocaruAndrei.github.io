@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<title>ABOUT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Table_css.css">
+<link rel="stylesheet" href="hamster.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="\WEB\img\no_name-6.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Cojocaru Andrei</b></h4>
+    <ul>
+        <p class="w3-text-grey"><li>Anul:III, gr:3133A</li></gr:3133></p>
+        <p class="w3-text-grey"><li>Facultate de Inginerie electrica si stiinta a calculatoarelor</li> </gr:3133></p>
+    
+        </ul>
+  </div>
+  <div class="w3-bar-block">
+    <a href="file:///D:/WEB/MyWebSite.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>MyHobbies</a> 
+    <a href="file:///D:/WEB/AboutMyWebsite.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding "><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="file:///D:/WEB/ContactMyWebsite.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a class="fa fa-facebook-official w3-hover-opacity" href = "https://www.facebook.com/andrei.cojocaru.9678/"></a>
+    <a class="fa fa-instagram w3-hover-opacity" href = "https://www.instagram.com/andre99c/"></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+
+ <!-- Contact Section -->
+ <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>andrei.cojocaru2@student.usv.ro</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Suceava, Romania</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>+40752273575</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"> <a href="\WEB\document.pdf" target = "_blank"><i class="fa fa-paper-plane w3-margin-right"></i>Download CV</a></button>
+    </form>
+  </div>
+
+  <div class="box-canvas">
+    <div class="wheel-leg left"></div>
+    <div class="wheel-leg right"></div>
+    <div class="wheel">
+    </div>
+    <div class="hamster">
+        <div class="body">
+          <div class="eye"></div>
+          <div class="nose"></div>
+        </div>
+        <div class="ear"></div>
+        <div class="tail"></div>
+        <div class="leg front"></div>
+        <div class="leg back"></div>
+      </div>
+  </div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
